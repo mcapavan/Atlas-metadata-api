@@ -1,0 +1,12 @@
+{
+    "enumTypes": [],
+    "structTypes": [],
+    "traitTypes": [],
+    "classTypes": [{
+        "superTypes": ["Process"],
+        "hierarchicalMetaTypeName": "org.apache.atlas.typesystem.types.ClassType",
+        "typeName": "SampleProcess",
+        "typeDescription": null,
+        "attributeDefinitions": null
+    }]
+}

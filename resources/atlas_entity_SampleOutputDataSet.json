@@ -1,0 +1,21 @@
+{
+    "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
+    "id": {
+        "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        "version": 0,
+        "typeName": "SampleOutputDataset"
+    },
+    "typeName": "SampleOutputDataset",
+    "values": {
+      "resource_title" : "Belfast Tidal Heights",
+      "unique_resource_identifier_code": "belfastharbourcommissioners_belfast_tides_height_x",
+      "unique_resource_identifier_codespace": "mytest.edu.uk",
+      "keywords": ["tides", "sea level"],
+      "name": "Sample-Output-Dataset-name",
+      "qualifiedName":"Sample-Output-Dataset-qualifiedName",
+      "description":"Sample-Output-Dataset description",
+      "owner":"M1002223"
+    },
+    "traitNames": [],
+    "traits": {}
+}

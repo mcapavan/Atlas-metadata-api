@@ -1,0 +1,32 @@
+{
+"jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Reference",
+    "id": {
+        "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+        "version": 0,
+        "typeName": "SampleProcess",
+        "state": "ACTIVE"
+    },
+    "typeName": "SampleProcess",
+    "values": {
+     "inputs": [{
+                  "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+                  "id": "<change this value with the latest uuid of SampleInputDataset>",
+                  "version": 0,
+                  "typeName": "SampleInputDataset",
+                  "state": "ACTIVE"
+              }],
+     "outputs": [{
+                  "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
+                  "id": "change this value with the latest uuid of SampleOutputDataset",
+                  "version": 0,
+                  "typeName": "SampleOutputDataset",
+                  "state": "ACTIVE"
+              }],
+     "qualifiedName": "SampleProcess.qualifiedName",
+     "name":"SampleProcess",
+     "description":"Transformation of input to output",
+     "owner": "M1002223"
+     },
+    "traitNames": [],
+    "traits": {}
+}
