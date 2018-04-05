@@ -9,7 +9,7 @@ Atlas, by default comes with certain types for Hive, Storm, Falcon etc. However,
 
 The eventual lineage I need to capture would look something like below:
 
-<TODO: add picture>
+![Alt text](/images/expectedLineage.png?raw=true "Expected Lineage")
 
 Files:-
 
@@ -58,9 +58,18 @@ curl -u admin:admin -X GET http://pchalla0.field.hortonworks.com:21000/api/atlas
 ```
 *extract uuid eg: 07be282b-e75c-416f-895a-631f6bb7e844 from the output*
 
-The above two uuids are required to update in atlas_entity_SampleProcess.json. Once the file is updated with the correct uuids run the final step to create lineage between InuptDataset and Outputdataset
+The above two uuids are required to update in **atlas_entity_SampleProcess.json** at inputs and outputs section. Once the file is updated with the correct uuids run the final step to create lineage between InuptDataset and Outputdataset
 
 Step 7: Create Entity for SampleProcess Type:
 ```bash
 curl -i -X POST -H 'Content-Type: application/json' -H 'Accept: application/json' -u admin:admin 'http://pchalla0.field.hortonworks.com:21000/api/atlas/entities' -d @atlas_entity_SampleProcess.json
 ```
+
+We can view the Input Dataset, Output Dataset and lineage from Atlas UI as below.
+
+![Alt text](/images/SampleInputDataset.png?raw=true "SampleInputDataset")
+
+![Alt text](/images/SampleOutputDataset.png?raw=true "SampleOutputDataset")
+
+![Alt text](/images/SampleProcess.png?raw=true "SampleProcess")
+

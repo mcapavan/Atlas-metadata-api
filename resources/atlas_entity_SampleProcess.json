@@ -10,14 +10,14 @@
     "values": {
      "inputs": [{
                   "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
-                  "id": "<change this value with the latest uuid of SampleInputDataset>",
+                  "id": "<<change this value with the latest uuid of SampleInputDataset>>",
                   "version": 0,
                   "typeName": "SampleInputDataset",
                   "state": "ACTIVE"
               }],
      "outputs": [{
                   "jsonClass": "org.apache.atlas.typesystem.json.InstanceSerialization$_Id",
-                  "id": "change this value with the latest uuid of SampleOutputDataset",
+                  "id": "<<change this value with the latest uuid of SampleOutputDataset>>",
                   "version": 0,
                   "typeName": "SampleOutputDataset",
                   "state": "ACTIVE"
