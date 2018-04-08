@@ -77,6 +77,9 @@ We can view the Input Dataset, Output Dataset and lineage from Atlas UI as below
 References:
 
 https://community.hortonworks.com/articles/91237/creating-custom-types-and-entities-in-atlas.html
+
 https://community.hortonworks.com/questions/42114/atlas-rest-api.html
+
 https://atlas.apache.org/0.7.1-incubating/AtlasTechnicalUserGuide.pdf
+
 https://atlas.apache.org/TypeSystem.html
